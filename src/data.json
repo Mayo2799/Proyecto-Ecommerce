@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zapatos de vestir",
+    "imagenUrl": "https://cnnespanol.cnn.com/wp-content/uploads/2015/12/manshoes.jpg?quality=100&strip=info",
+    "precio": 82
+  },
+  {
+    "id": 2,
+    "nombre": "Tacones",
+    "imagenUrl": "https://www.podoactiva.com/wp-content/uploads/2019/12/tacones-2-1.jpg",
+    "precio": 52
+  },
+  {
+    "id": 3,
+    "nombre": "Tenis",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/1161/3498/products/22-10_1_cef2fe38-32a9-4866-899c-da950ce96c3f_540x.jpg?v=1652719210",
+    "precio": 74
+  },
+  {
+    "id": 4,
+    "nombre": "Vestido",
+    "imagenUrl": "https://http2.mlstatic.com/D_NQ_NP_664196-MPE48561267505_122021-W.jpg",
+    "precio": 50
+  },
+  {
+    "id": 5,
+    "nombre": "Blusa de vestir mujer",
+    "imagenUrl": "https://img01.ztat.net/article/spp-media-p1/9e8a05989878419ab8fb8680941e501e/bb0c782f40884ca090006e08cea5b075.jpg?imwidth=1800&filter=packshot&imformat=jpeg",
+    "precio": 63
+  },
+  {
+    "id": 6,
+    "nombre": "Camisa de vestir hombre",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71yVE3JQwFL._AC_UX385_.jpg",
+    "precio": 68
+  },
+  {
+    "id": 7,
+    "nombre": "Pantalón de vestir mujer",
+    "imagenUrl": "https://cdn.fashiola.mx/L569748479/tom-ford-pantalones-de-vestir-anchos.jpg",
+    "precio": 75
+  },
+  {
+    "id": 8,
+    "nombre": "Pantalón de vestir hombre",
+    "imagenUrl": "https://cdna.lystit.com/200/250/tr/photos/lvr/0ec37e58/nike--court-X-Rf.jpeg",
+    "precio": 79
+  },
+  {
+    "id": 9,
+    "nombre": "Gorra",
+    "imagenUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/db180df7-fd44-44c1-a3be-aa01bc5221eb/gorra-de-golf-perforada-dri-fit-adv-classic99-tSqnTT.png",
+    "precio": 22
+  },
+  {
+    "id": 10,
+    "nombre": "Sombrero",
+    "imagenUrl": "https://sombrerosalbero.es/4439-large_default/sombrero-mujer-saskia-gris.jpg",
+    "precio": 29
+  },
+  {
+    "id": 11,
+    "nombre": "Pijama de mujer",
+    "imagenUrl": "https://static.lefties.com/9/photos2/2022/V/0/1/p/1138/303/802/1138303802_1_1_3.jpg?t=1643025705255",
+    "precio": 32
+  },
+  {
+    "id": 12,
+    "nombre": "Pijama de hombre",
+    "imagenUrl": "https://s3-us-west-2.amazonaws.com/im-prod-products-images/p-301306-1-5e0c62b5-13c9-40b6-a5f0-0dac25a3d64e.jpg",
+    "precio": 34
+  },
+  {
+    "id": 13,
+    "nombre": "Blusa deportiva mujer",
+    "imagenUrl": "https://http2.mlstatic.com/blusa-deportiva-para-dama-marca-nike-D_NQ_NP_689389-MLM25947932904_092017-F.jpg",
+    "precio": 48
+  },
+  {
+    "id": 14,
+    "nombre": "Camiseta deportiva hombre",
+    "imagenUrl": "https://i.pinimg.com/736x/cc/01/0f/cc010fbcd9bb659ef2cb72b78d5d1053.jpg",
+    "precio": 54
+  },
+  {
+    "id": 15,
+    "nombre": "Licra deportiva mujer",
+    "imagenUrl": "https://http2.mlstatic.com/D_NQ_NP_999906-MCO48044088382_102021-W.jpg",
+    "precio": 61
+  },
+  {
+    "id": 16,
+    "nombre": "Short deportivo hombre",
+    "imagenUrl": "https://falabella.scene7.com/is/image/FalabellaPE/18399746_1?wid=800&hei=800&qlt=70",
+    "precio": 63
+  },
+  {
+    "id": 17,
+    "nombre": "Suéter hombre",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61vMZEUt8iL._AC_UX385_.jpg",
+    "precio": 53
+  },
+  {
+    "id": 18,
+    "nombre": "Suéter mujer",
+    "imagenUrl": "https://www.estarguapas.com/pics/2021/04/07/only-onllesly-kings-ls-pullover-knt-noos-sueter-multicolor-basil-detail-w-melange-x-large-para-mujer-554.jpg",
+    "precio": 46
+  },
+  {
+    "id": 19,
+    "nombre": "Zapato burro mujer",
+    "imagenUrl": "https://http2.mlstatic.com/D_NQ_NP_657195-MLC31212581511_062019-W.jpg",
+    "precio": 78
+  },
+  {
+    "id": 20,
+    "nombre": "Zapato burro hombre",
+    "imagenUrl": "https://i.pinimg.com/550x/8f/78/46/8f7846072562ad5864b759e14a268a55.jpg",
+    "precio": 74
+  }
+]

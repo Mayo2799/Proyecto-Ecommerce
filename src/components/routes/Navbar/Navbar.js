@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import { Link, Outlet } from "react-router-dom";
+import { UsuarioContext } from "../../../contexts/usuarios";
+import { signOutUsuario } from "../../../utils/firebase/firebase";
 import { ReactComponent as ImagenLogo } from "./../../../assets/crown.svg";
 import "./Navbar.scss";
 const Navbar = () => {
+  const { usuarioLogueado } = useContext(UsuarioContext);
   return (
     <>
       <nav className="navbar">
@@ -12,9 +16,15 @@ const Navbar = () => {
           <Link className="navbar-link" to="/tienda">
             Tienda
           </Link>
-          <Link className="navbar-link" to="/acceder">
-            Acceder
-          </Link>
+          {usuarioLogueado ? (
+            <span className="navbar-link" onClick={signOutUsuario}>
+              Salir
+            </span>
+          ) : (
+            <Link className="navbar-link" to="/acceder">
+              Acceder
+            </Link>
+          )}
         </div>
       </nav>
       <Outlet />

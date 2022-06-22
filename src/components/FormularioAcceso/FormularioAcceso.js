@@ -43,11 +43,7 @@ const FormularioAcceso = () => {
     evento.preventDefault();
     console.log("Formulario enviado");
     try {
-      const respuesta = await signInWithEmailPasswordForFirestore(
-        correo,
-        contrasenia
-      );
-      console.log(respuesta);
+      await signInWithEmailPasswordForFirestore(correo, contrasenia);
       setCamposFormulario(datosFormulario);
     } catch (error) {
       errorAutenticacion(error.code);
