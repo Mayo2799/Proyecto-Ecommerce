@@ -1,6 +1,6 @@
 import { useState, createContext, useEffect } from "react";
 //import { Navigate } from "react-router-dom";
-import { onAuthStateChangedListener } from "../utils/firebase/firebase";
+import { onAuthStateChangedListener } from "./../utils/firebase/firebase";
 export const UsuarioContext = createContext({
   usuarioLogueado: null,
   setUsuarioLogueado: () => null,

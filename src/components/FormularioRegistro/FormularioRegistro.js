@@ -6,9 +6,9 @@ import {
 import {
   mostrarAlerta,
   errorAutenticacion,
-} from "../../utils/sweetalert2/sweetalert2";
-import Input from "../../layouts/Input/Input";
-import Button from "../../layouts/Button/Button";
+} from "./../../utils/sweetalert2/sweetalert2";
+import Input from "./../../layouts/Input/Input";
+import Button from "./../../layouts/Button/Button";
 const FormularioRegistro = () => {
   const datosFormulario = {
     nombre: "",
@@ -51,7 +51,6 @@ const FormularioRegistro = () => {
   ];
   const handleOnSubmit = async (evento) => {
     evento.preventDefault();
-    console.log("Formulario enviado");
     if (contrasenia !== confirmarContrasenia) {
       errorAutenticacion("contrasenia-no-coincide");
       return;
@@ -90,7 +89,9 @@ const FormularioRegistro = () => {
             placeholder={placeholder}
           />
         ))}
-        <Button type={"submit"} text={"Registrarse"} />
+        <div style={{ marginTop: "20px" }}>
+          <Button type={"submit"} text={"Registrarse"} />
+        </div>
       </form>
     </div>
   );

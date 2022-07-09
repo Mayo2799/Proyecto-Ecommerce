@@ -24,7 +24,7 @@ const ContenedorCategorias = () => {
       id: 4,
       nombre: "Hombres",
       imagen:
-        "https://cdn-0.somosmamas.com.ar/wp-content/uploads/2019/02/estilos-de-ropa-hombres-1320x742.jpg",
+        "https://www.somosmamas.com.ar/wp-content/uploads/2019/02/estilos-de-ropa-hombres.jpg",
     },
     {
       id: 5,

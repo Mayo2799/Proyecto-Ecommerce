@@ -14,7 +14,6 @@ const FormularioAcceso = () => {
   };
   const loguear = async () => {
     const { user } = await signInWithGooglePopup();
-    console.log(user);
     crearDocumentoUsuarios(user);
   };
   const [camposFormulario, setCamposFormulario] = useState(datosFormulario);
@@ -41,7 +40,6 @@ const FormularioAcceso = () => {
   };
   const handleOnSubmit = async (evento) => {
     evento.preventDefault();
-    console.log("Formulario enviado");
     try {
       await signInWithEmailPasswordForFirestore(correo, contrasenia);
       setCamposFormulario(datosFormulario);
@@ -66,7 +64,7 @@ const FormularioAcceso = () => {
             placeholder={placeholder}
           />
         ))}
-        <div>
+        <div style={{ marginTop: '20px' }}>
           <Button type={"submit"} text={"Acceder"} />
           <Button onClick={loguear} text={"Acceder con cuenta de Google"} />
         </div>

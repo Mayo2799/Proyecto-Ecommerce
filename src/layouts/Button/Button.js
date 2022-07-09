@@ -6,5 +6,4 @@ const Button = ({ type, text, onClick }) => {
     </button>
   );
 };
-
 export default Button;
