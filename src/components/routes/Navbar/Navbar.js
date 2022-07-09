@@ -1,11 +1,15 @@
-import { useContext } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { UsuarioContext } from "../../../contexts/usuarios";
-import { signOutUsuario } from "../../../utils/firebase/firebase";
+import { useContext } from "react";
 import { ReactComponent as ImagenLogo } from "./../../../assets/crown.svg";
+import { UsuarioContext } from "./../../../contexts/usuarios";
+import { CarritoContext } from "./../../../contexts/carrito";
+import { signOutUsuario } from "./../../../utils/firebase/firebase";
+import Carrito from "./../../Carrito/Carrito";
+import DropdownCarrito from "./../../Carrito/DropdownCarrito/DropdownCarrito";
 import "./Navbar.scss";
 const Navbar = () => {
   const { usuarioLogueado } = useContext(UsuarioContext);
+  const { mostrarCarrito } = useContext(CarritoContext);
   return (
     <>
       <nav className="navbar">
@@ -25,7 +29,9 @@ const Navbar = () => {
               Acceder
             </Link>
           )}
+          <Carrito />
         </div>
+        {mostrarCarrito && <DropdownCarrito />}
       </nav>
       <Outlet />
     </>
