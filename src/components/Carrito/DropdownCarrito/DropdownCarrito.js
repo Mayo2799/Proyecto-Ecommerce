@@ -5,10 +5,12 @@ import Button from "./../../../layouts/Button/Button";
 import { ItemsCarrito } from "./ItemsCarrito/ItemsCarrito";
 import "./DropdownCarrito.scss";
 const DropdownCarrito = () => {
-  const { itemsCarrito } = useContext(CarritoContext);
+  const { itemsCarrito, setMostrarCarrito, mostrarCarrito } =
+    useContext(CarritoContext);
   let navigate = useNavigate();
   const handleOnclick = () => {
     navigate("/pagar");
+    setMostrarCarrito(!mostrarCarrito);
   };
   return (
     <div className="contenedor-dropdown">
